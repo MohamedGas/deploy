@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public  String welcome(){
-        return "welcome to spring framework";
+        return "welcome to shiine";
     }
 }
